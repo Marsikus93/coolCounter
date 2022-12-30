@@ -1,0 +1,23 @@
+.reset {
+    width: 50%;
+    background-color: lightblue;
+    color: black;
+    border-radius: 5px;
+    border: none;
+}
+
+.inc {
+    composes: reset;
+    width: 30%;
+    margin: 2%;
+}
+
+button:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    color: midnightblue;
+}
+
+button:disabled {
+    opacity: 0.5;
+}
